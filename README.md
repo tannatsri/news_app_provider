@@ -1,16 +1,65 @@
-# news_app
+# Flutter News App
 
-A new Flutter project.
+
+This projects showcase a news feed using news api. It has support for dark theme along with external browser redirection.
+
+## Table of Contents
+
+- [Features](#features)
+- [Getting Started](#getting-started)
+    - [Prerequisites](#prerequisites)
+    - [Installation](#installation)
+- [Screenshots](#screenshots)
+
+## Features
+
+- List key features of your Flutter app.
+    - State Management using Provider
+    - API integration using NewsAPI
+    - Dark Mode support
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+### Prerequisites
 
-A few resources to get you started if this is your first Flutter project:
+To get started with this project, you will need:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- [Flutter SDK](https://flutter.dev/docs/get-started/install)
+- A code editor like [VSCode](https://code.visualstudio.com/) or [Android Studio](https://developer.android.com/studio)
+- Android emulator or a physical device for testing
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### Installation
+
+1. Clone the repository:
+
+    ```bash
+    git clone https://github.com/tannatsri/news_app_provider.git
+    ```
+
+2. Navigate into the project directory:
+
+    ```bash
+    cd news_app_provider
+    ```
+
+3. Install the dependencies:
+
+    ```bash
+    flutter pub get
+    ```
+
+4. Run the app:
+
+    ```bash
+    flutter run
+    ```
+
+## Screenshots
+
+|  |  |
+|------------|-----------|
+| Home Page - Light| Home Page - Dark|
+| <img src="https://github.com/tannatsri/news_app_provider/blob/main/screenshot/l1-light.jpeg" alt="Light Mode Screenshot" width="300"/> | <img src="https://github.com/tannatsri/news_app_provider/blob/main/screenshot/l1-dark.jpeg" alt="Dark Mode Screenshot" width="300"/> |
+|Detail Page - Light|Detail Page - Dark|
+| <img src="https://github.com/tannatsri/news_app_provider/blob/main/screenshot/l2-light.jpeg" alt="Light Mode Screenshot" width="300"/> | <img src="https://github.com/tannatsri/news_app_provider/blob/main/screenshot/l2-dark.jpeg" alt="Dark Mode Screenshot" width="300"/> |
+
